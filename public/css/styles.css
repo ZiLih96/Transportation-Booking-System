@@ -1,0 +1,180 @@
+/* Common styles for both pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #080808; /* Adjust text color based on background */
+}
+
+.header {
+    background: rgba(23, 111, 88, 0.8); /* Background color with transparency */
+    padding: 20px;
+    text-align: center;
+}
+
+.go, .school {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    background: #F59A23;
+    width: 100px;
+    margin: auto;
+}
+
+.login-container {
+    background: rgba(255, 255, 255); /* Background color with transparency */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto 20px; /* Adjust margin-top and margin-bottom */
+    max-width: 400px;
+}
+
+.register-container {
+    background: rgba(255, 255, 255); /* Background color with transparency */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto 20px; /* Adjust margin-top and margin-bottom */
+    max-width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #176F58;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #145a4c;
+}
+
+/* Additional styles for the registration page */
+.register-container {
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #169BD5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Hide dropdown content by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -900%;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: -1800%;
+}
+
+/* Position the dropdown button */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown content links */
+.dropdown-content a {
+    color: black;
+    padding: 30px 40px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style the dropdown content links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+/* Show the dropdown content when the menu button is clicked */
+.show {display:block;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-color: rgba(255, 255, 255, 0.5); /* Background color with transparency */
+    background-blend-mode: overlay; /* Apply blending mode to mix the background image and color */
+    background-size: cover;
+    color: #080808; /* Adjust text color based on background */
+}
+
+input[type="radio"] {
+    margin: 0 20px;
+    
+}
+
+label {
+    margin-right: 20px;
+    font-size: 18px; /* Bigger font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="text"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
